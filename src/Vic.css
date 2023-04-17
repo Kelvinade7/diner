@@ -1,0 +1,176 @@
+#crip{
+    padding: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-img{
+    width: 100%;
+    height: 800px;
+
+}
+#food{
+    padding: 45px;
+    background-color: black;
+}
+#top{
+    color: white;
+    background-image:url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQdrJqKpkdu0J8nBqtuF2qebZmJUPq-ULozBGGyKzYXgbDxBrEZH2r8a3_M2sH2wjUkFwqvEBVy0s1gOnOWjoY');
+    width: 100%;
+    font-size: 80px;
+    text-align: center;
+    position: static;
+    padding: 45px;
+    height: 700px;
+    align-items: center;
+    text-shadow: 0 0 10px orangered;
+    
+
+}
+#top:hover{
+    padding: 40px;
+    text-shadow: 0 0 20px orangered;
+    font-size: 85px;
+}
+.fo{
+    padding: 45px;
+    background: white;
+
+}
+#ball{
+    border-color: black;
+    border-radius: 0;
+}
+#link{
+    font-size: 30px;
+    font-weight: 450;
+    color: blue;
+}
+#link:hover{
+    color: red;
+}
+.butto{
+    background-color:rgb(230, 86, 20);
+    color:white;
+    width:200px;
+    font-size:25px;
+    border-radius: 4px;
+}
+.butto:hover{
+    width: 220px;
+    font-size: 30px;
+    border-radius: 6px;
+
+
+
+}
+#ok{
+    padding: 45px;
+    text-align: center;
+}
+#sip{
+    background-color:  rgb(211, 210, 210);
+}
+#new{
+    border: solid 1px yellow;
+    border-left-color: black;
+    border-right-color: black;
+}
+.final{
+    text-align: center;
+
+
+}
+#icon{
+    width: 1.5cm;
+    height: 2cm;
+    color: rgb(230, 86, 20);
+    padding: 10px;
+}
+#icon:hover{
+    width: 1.7cm;
+    height: 2.2cm;
+}
+.old{
+    border: solid 1px yellow;
+    border-left-color: black;
+    border-right-color: black;
+    border-top-color:black ;
+    margin-bottom: 10px;
+}
+.bra{
+    border: solid 1px yellow;
+    border-left-color: black;
+    border-right-color: black;
+    border-top-color:black ;
+    
+}
+.fo:hover{
+    background: rgb(82, 82, 209);
+}
+.oo{
+    height: 600px;
+}
+#he{
+    font-size: 30px;
+    text-align: center;
+}
+.h{
+    color: white;
+    text-align:center;
+    margin: 15px;
+}
+@media(max-width:'700px') {
+    #crip{
+        padding: 25px;
+    }
+    .card-img{
+        height: 500px;
+    }
+    #food{
+        padding: 25px;
+        height: 400px;
+        
+    }
+    #he{
+        font-size: 25px;
+    }
+    #top{
+        font-size: 40px;
+        height: 400px;
+    }
+    .butto{
+        width: 150px;
+        font-size: 20px;
+    }
+    .oo{
+        height: 500px;
+    }
+    #he{
+        font-size: 25px;
+    }
+    #icon{
+        width: 1cm;
+        height: 1.5cm;
+    }
+    
+}
+@media(max-width:600px){
+    #crip{
+        padding: 15px;
+    }
+    .card-img{
+        height: 380px;
+    }
+    #food{
+        padding: 15px;
+    }
+    #top{
+        font-size: 30px;
+        height: 390px;
+    }
+    .oo{
+        height: 400px;
+    }
+    #he{
+        font-size: 20px;
+    }
+}
